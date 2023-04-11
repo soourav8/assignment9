@@ -16,7 +16,7 @@ const Nav = () => {
                 <Link className='ml-4' to="/Applied Jobs">Applied Jobs</Link>
                 <Link className='ml-4' to="/Blog">Blog</Link>
             </div>
-            <button  className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] p-3 rounded-lg text-white text-xl font-bold py-5 px-7'>Star Applying</button>
+            <button  className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] p-3 rounded-lg text-white text-xl font-bold py-4 px-5'>Star Applying</button>
             
         </nav>
     );
