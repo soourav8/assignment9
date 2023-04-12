@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import data from "../../data.json"
 import { useLoaderData } from 'react-router-dom';
 import { addToDb, getShoppingCart } from '../../utilities/fakedb';
 import AppliedCard from '../AppliedCard/AppliedCard';
 
 const Applied = () => {
     const [items , setItems] = useState([]);
-    const data = useLoaderData()
+    // const data = useLoaderData()
     useEffect(()=>{
         const storedId = getShoppingCart()
         const savedData = [];

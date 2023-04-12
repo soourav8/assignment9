@@ -1,15 +1,16 @@
 import React from 'react';
+import data from '/src/data.json'
 import { useLoaderData, useLocation } from 'react-router-dom';
 import { addToDb } from '../../utilities/fakedb';
 
 const JobDetails = () => {
-    const jobs = useLoaderData()
+    // const jobs = useLoaderData()
     
 
 
     const {state} = useLocation();
     const{id} = state
-    const job = jobs.find(job => job._id === id);
+    const job = data.find(job => job._id === id);
     console.log(job)
     const { responsibilities, phone, _id, email, address, title, description, salary, education, experience
     } = job
