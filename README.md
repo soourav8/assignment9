@@ -5,6 +5,4 @@
 * There will show apply button you can apply for jobs
 * Applied Jobs will show your job applied history
 * Blog page will show you some Blogs
-
-
-### Live website link : https://storied-gingersnap-aa99d5.netlify.app/
+### website link : https://storied-gingersnap-aa99d5.netlify.app/
