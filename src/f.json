@@ -1,0 +1,170 @@
+[
+  {
+    "_id": "6435a39355ef16d35a97f133",
+    "employee": "Remote",
+    "salary": "(9500k - 9700k) per month",
+    "logo": "https://i.ibb.co/C83S8NF/netflix-4-1.png",
+    "title": "Software Engineer",
+    "company": "Netflix.",
+    "work_type": "Full-time",
+    "description": "We are seeking a talented software engineer to join our team and work on cutting-edge technology projects.",
+    "responsibilities": [
+      "Develop and design visual content for print and digital media",
+      "Create logos, branding materials, and marketing collateral",
+      "Collaborate with cross-functional teams to develop design concepts and strategies",
+      "Manage multiple design projects and meet deadlines",
+      "Stay up-to-date with design software and technologies",
+      "Provide creative direction and feedback to team members"
+    ],
+    "education": "Bachelor's degree in Computer Science or a related field",
+    "experience": "2+ years of experience as a software engineer",
+    "phone": "(555) 123-4567",
+    "email": "jobs@abccorp.com",
+    "address": {
+      "street": "123 Main St.",
+      "city": "Dombvili",
+      "state": "Mi",
+      "zip": "12345"
+    }
+  },
+  {
+    "_id": "6435a39354c30cc65e9ff2c2",
+    "employee": "Remote",
+    "salary": "(7500k - 8o00k) per month",
+    "logo": "https://i.ibb.co/0CDkkr3/google-1-1-1.png",
+    "title": "Marketing Manager",
+    "company": "Google.",
+    "work_type": "Full-time",
+    "description": "We are seeking a dynamic marketing manager to lead our team and drive growth for our products and services.",
+    "responsibilities": [
+      "Conduct financial analysis and modeling to support business decisions",
+      "Prepare and present financial reports to senior management",
+      "Monitor financial performance and identify trends and opportunities",
+      "Collaborate with cross-functional teams to develop budgets and forecasts",
+      "Perform risk analysis and develop contingency plans",
+      "Stay up-to-date with financial regulations and industry best practices"
+    ],
+    "education": "Bachelor's degree in Marketing or a related field",
+    "experience": "5+ years of experience in marketing, with 2+ years in a leadership role",
+    "phone": "(555) 123-4567",
+    "email": "jobs@xyzinc.com",
+    "address": {
+      "street": "456 Main St.",
+      "city": "Ludhiyana",
+      "state": "PB",
+      "zip": "12345"
+    }
+  },
+  {
+    "_id": "6435a3930601f0126d5cafaf",
+    "employee": "remote",
+    "salary": "(500k - 700k) per month",
+    "logo": "https://i.ibb.co/C83S8NF/netflix-4-1.png",
+    "title": "Frontend Engineer",
+    "company": "Netflix",
+    "work_type": "Part-time",
+    "description": "We are seeking a data scientist to help us analyze and interpret complex data sets to inform business decisions.",
+    "responsibilities": [
+      "Manage employee relations, including conflict resolution and performance management",
+      "Oversee recruitment and hiring processes",
+      "Develop and implement employee training and development programs",
+      "Maintain HR policies and procedures and ensure compliance with labor laws",
+      "Provide guidance and support to managers and employees on HR-related issues",
+      "Conduct employee surveys and analyze data to identify areas for improvement"
+    ],
+    "education": "Master's degree in Data Science or a related field",
+    "experience": "3+ years of experience in data science",
+    "phone": "(555) 123-4567",
+    "email": "jobs@123corp.com",
+    "address": {
+      "street": "789 Main St.",
+      "city": "Kolkata",
+      "state": "WB",
+      "zip": "12345"
+    }
+  },
+  { 
+    "_id": "6435a393eadc785a10fa34fa",
+    "employee": "Remote",
+    "salary": "(5000k - 7000k) per month",
+    "logo": "https://i.ibb.co/0CDkkr3/google-1-1-1.png",
+    "title": "System Admin",
+    "company": "Google",
+    "work_type": "Part-time",
+    "description": "We are seeking a data scientist to help us analyze and interpret complex data sets to inform business decisions.",
+    "responsibilities": [
+      "Develop and implement marketing strategies to increase brand awareness and customer acquisition",
+      "Create marketing materials and campaigns for print, digital, and social media channels",
+      "Analyze market trends and customer data to identify opportunities for growth",
+      "Collaborate with cross-functional teams to develop and execute marketing campaigns",
+      "Track and report on marketing campaign performance",
+      "Manage marketing budget and allocate resources effectively"
+    ],
+    "education": "Master's degree in Data Science or a related field",
+    "experience": "3+ years of experience in data science",
+    "phone": "(555) 123-4567",
+    "email": "jobs@123corp.com",
+    "address": {
+      "street": "789 Main St.",
+      "city": "Kolkata",
+      "state": "WB",
+      "zip": "12345"
+    }
+  },
+  {
+    "_id": "6435a393d1efdd02ed6c2b9d",
+    "employee": "Remote",
+    "salary": "(300k - 700k) per month",
+    "logo": "https://i.ibb.co/3ptJqdJ/tesla-9-1.png",
+    "title": "Data Scientist",
+    "company": "Tesla",
+    "work_type": "Part-time",
+    "description": "We are seeking a data scientist to help us analyze and interpret complex data sets to inform business decisions.",
+    "responsibilities": [
+      "Design and develop software applications",
+      "Write clean and efficient code",
+      "Collaborate with cross-functional teams to identify and solve complex problems",
+      "Test and debug software to ensure high-quality delivery",
+      "Stay up-to-date with emerging trends and technologies in software engineering",
+      "Participate in code reviews and contribute to the development of best practices"
+    ],
+    "education": "Master's degree in Data Science or a related field",
+    "experience": "3+ years of experience in data science",
+    "phone": "(555) 123-4567",
+    "email": "jobs@123corp.com",
+    "address": {
+      "street": "789 Main St.",
+      "city": "Kolkata",
+      "state": "WB",
+      "zip": "12345"
+    }
+  },
+  {
+    "_id": "6435a3931cc2bbeaec1f2c12",
+    "employee": "Remote",
+    "salary": "(900k - 1200k) per month",
+    "logo": "https://i.ibb.co/Db58337/Group-10021.png",
+    "title": "Data Analyst",
+    "company": "Airbnb.",
+    "work_type": "Part-time",
+    "description": "We are seeking a data scientist to help us analyze and interpret complex data sets to inform business decisions.",
+    "responsibilities": [
+      "Respond to customer inquiries and provide support via phone, email, and chat",
+      "Resolve customer complaints and escalate issues as necessary",
+      "Maintain customer records and update databases",
+      "Collaborate with cross-functional teams to ensure customer satisfaction",
+      "Stay up-to-date with product and service knowledge",
+      "Provide feedback to the product team to improve customer experience"
+    ],
+    "education": "Master's degree in Data Science or a related field",
+    "experience": "3+ years of experience in data science",
+    "phone": "(555) 123-4567",
+    "email": "jobs@123corp.com",
+    "address": {
+      "street": "789 Main St.",
+      "city": "Kolkata",
+      "state": "WB",
+      "zip": "12345"
+    }
+  }
+]

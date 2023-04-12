@@ -1,13 +1,15 @@
 import React from 'react';
-import Nav from '../Nav/Nav';
+
 import Header from '../Header/Header';
 import Categories from '../Categories/Categories';
+import Featured from '../Featured/Featured';
 
 const Home = () => {
     return (
-        <div >
+        <div>
            <Header></Header>
            <Categories></Categories>
+           <Featured></Featured>
         </div>
     );
 };

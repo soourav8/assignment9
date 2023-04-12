@@ -11,7 +11,7 @@ const Nav = () => {
             </div>
             
             <div className='text-[#757575] font-medium  '>
-                <Link className='ml-4' to="/Home">Home</Link>
+                <Link className='ml-4' to="/">Home</Link>
                 <Link className='ml-4' to="/Statistics">Statistics</Link>
                 <Link className='ml-4' to="/Applied Jobs">Applied Jobs</Link>
                 <Link className='ml-4' to="/Blog">Blog</Link>

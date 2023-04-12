@@ -1,4 +1,4 @@
-import data from '../../../public/assets/data/c.json'
+import data from '/src/c.json'
 import Category from '../Category/Category';
 
 const Categories = () => {
@@ -18,7 +18,7 @@ const Categories = () => {
         <div className='grid grid-cols-4 mt-10 mb-48 '>
         {
             
-            data.map(data => <Category key={data.index} data={data}></Category> )
+            data.map(data => <Category key={data.category} data={data}></Category> )
             
         }
         </div>

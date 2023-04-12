@@ -1,20 +1,20 @@
 [
-    {
+    { "id" : 1,
       "category": "Account & Finance",
       "posts": "300+ Jobs Available",
       "image": "https://i.ibb.co/vmX4NDD/accounts-1.png"
     },
-    {
+    { "id" : 2,
       "category": "Creative Design",
       "posts": "100+ Jobs Available",
       "image": "https://i.ibb.co/KXfXXvd/business-1.png"
     },
-    {
+    { "id" : 3,
       "category": "Marketing & Sales",
       "posts": "150+ Jobs Available",
       "image": "https://i.ibb.co/31ZGsxY/social-media-1.png"
     },
-    {
+    { "id" : 4,
       "category": "Engineering Job",
       "posts": "224+ Jobs Available",
       "image": "https://i.ibb.co/FgYhJty/chip-1.png"
