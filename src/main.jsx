@@ -14,12 +14,14 @@ import Statistics from './components/Statistics/Statistics';
 import JobDetails from './components/JobDetails/JobDetails';
 import Blog from './components/Blogs/Blog';
 import Applied from './components/Applied/Applied';
+import ErrorPage from './error-page';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
