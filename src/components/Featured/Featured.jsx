@@ -19,7 +19,7 @@ const Featured = () => {
                     <h2 className='font-bold text-5xl mb-8'>Featured Jobs</h2>
                     <p className='text-[#757575] font-medium text-[18px] '>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
-                <div className='grid grid-cols-2 mt-9 mx-auto'>
+                <div className='md:grid md:grid-cols-2 mt-9 mx-auto'>
                     {
                         data.slice(0, showAll ? 6 : 4).map(item => <FeaturedCard key={item._id} item={item}></FeaturedCard>)
                     }
