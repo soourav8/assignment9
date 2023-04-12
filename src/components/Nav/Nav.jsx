@@ -12,9 +12,9 @@ const Nav = () => {
             
             <div className='text-[#757575] font-medium  '>
                 <Link className='ml-4' to="/">Home</Link>
-                <Link className='ml-4' to="/Statistics">Statistics</Link>
-                <Link className='ml-4' to="/Applied Jobs">Applied Jobs</Link>
-                <Link className='ml-4' to="/Blog">Blog</Link>
+                <Link className='ml-4' to="/statistics">Statistics</Link>
+                <Link className='ml-4' to="/applied">Applied Jobs</Link>
+                <Link className='ml-4' to="/blog">Blog</Link>
             </div>
             <button  className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] p-3 rounded-lg text-white text-xl font-bold py-4 px-5'>Star Applying</button>
             

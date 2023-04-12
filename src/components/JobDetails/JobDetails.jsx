@@ -1,5 +1,6 @@
 import React from 'react';
-import { useLoaderData, useLocation } from 'react-router-dom';
+import { json, useLoaderData, useLocation } from 'react-router-dom';
+import { addToDb, getShoppingCart } from '../../utilities/fakedb';
 
 const JobDetails = () => {
     const jobs = useLoaderData()
@@ -9,13 +10,31 @@ const JobDetails = () => {
     // console.log(location.state)
     const job = jobs.find(job => job._id === location.state.id);
     console.log(job)
-    const { responsibilities, phone, email, address, title, description, salary, education, experience
+    const { responsibilities, phone, _id, email, address, title, description, salary, education, experience
     } = job
+
+    // apply btn handle
+
+    const handleApply = (_id) =>{
+         addToDb(_id);
+        
+
+        
+
+        
+
+
+    }
+
+
+    
+
+
 
     return (
         <>
             <div className='grid lg:grid-cols-3'>
-                <div className='lg:col-span-2'>
+                <div className='lg:col-span-2 pr-6'>
                 {/* job section  */}
 
                     <div className='mt-20 mb-6'>
@@ -42,35 +61,35 @@ const JobDetails = () => {
                     <div className='bg-gradient-to-r from-[#7E90FE1A] to-[#9873FF1A]  pt-8 pl-16 mt-20' >
                         <p className='font-bold text-2xl mb-6'>Job Details</p>
                         <div className='flex items-center mb-3'>
-                            <img src="/public/assets/Icons/Frame.png" alt="" />
+                            <img src="/assets/Icons/Frame.png" alt="" />
                             <p>Salary: </p>
                             <p> {salary}</p>
                         </div>
                         <div className='flex items-center'>
-                            <img src="/public/assets/Icons/Frame-1.png" alt="" />
+                            <img src="/assets/Icons/Frame-1.png" alt="" />
                             <p>Job Title : </p>
                             <p> {title}</p>
                         </div>
                     </div>
-                    <div className='bg-gradient-to-r from-[#7E90FE1A] to-[#9873FF1A] pl-16 '>
-                        <p className='font-bold text-2xl mb-6 pt-8'>Contact Information</p>
+                    <div className='bg-gradient-to-r from-[#7E90FE1A] to-[#9873FF1A] pl-16  pb-8'>
+                        <p className='font-bold text-2xl mb-6 pt-8 '>Contact Information</p>
                         <div className='flex items-center mb-3'>
-                            <img src="/public/assets/Icons/Frame-2.png" alt="" />
+                            <img src="/assets/Icons/Frame-2.png" alt="" />
                             <p>Phone: </p>
                             <p> {phone}</p>
                         </div>
                         <div className='flex items-center mb-3'>
-                            <img src="/public/assets/Icons/Frame-3.png" alt="" />
+                            <img src="/assets/Icons/Frame-3.png" alt="" />
                             <p>Email: </p>
-                            <p> {phone}</p>
+                            <p> {email}</p>
                         </div>
                         <div className='flex items-center mb-3'>
-                            <img src="/public/assets/Icons/Frame-4.png" alt="" />
+                            <img src="/assets/Icons/Frame-4.png" alt="" />
                             <p>Address : </p>
                             <p> {address.city}, {address.street}, {address.zip}</p>
                         </div>
                     </div>
-                    <button className='mt-12 w-full bg-gradient-to-r from-[#7E90FE] to-[#9873FF] p-3 rounded-lg text-white text-xl font-bold py-4 px-5'>Apply Now</button>
+                    <button onClick={()=>handleApply(_id)} className='mt-12 w-full bg-gradient-to-r from-[#7E90FE] to-[#9873FF] p-3 rounded-lg text-white text-xl font-bold py-4 px-5'>Apply Now</button>
                 </div>
 
             </div>
