@@ -14,8 +14,8 @@ const JobDetails = () => {
 
     return (
         <>
-            <div className='grid grid-cols-2'>
-                <div>
+            <div className='grid lg:grid-cols-3'>
+                <div className='lg:col-span-2'>
                 {/* job section  */}
 
                     <div className='mt-20 mb-6'>
@@ -37,11 +37,11 @@ const JobDetails = () => {
 
 
 
-                <div>
+                <div className=''>
                     {/* apply section  */}
-                    <div>
-                        <p className='font-bold text-2xl'>Job Details</p>
-                        <div className='flex items-center'>
+                    <div className='bg-gradient-to-r from-[#7E90FE1A] to-[#9873FF1A]  pt-8 pl-16 mt-20' >
+                        <p className='font-bold text-2xl mb-6'>Job Details</p>
+                        <div className='flex items-center mb-3'>
                             <img src="/public/assets/Icons/Frame.png" alt="" />
                             <p>Salary: </p>
                             <p> {salary}</p>
@@ -52,25 +52,25 @@ const JobDetails = () => {
                             <p> {title}</p>
                         </div>
                     </div>
-                    <div>
-                        <p className='font-bold text-2xl'>Contact Information</p>
-                        <div className='flex items-center'>
+                    <div className='bg-gradient-to-r from-[#7E90FE1A] to-[#9873FF1A] pl-16 '>
+                        <p className='font-bold text-2xl mb-6 pt-8'>Contact Information</p>
+                        <div className='flex items-center mb-3'>
                             <img src="/public/assets/Icons/Frame-2.png" alt="" />
                             <p>Phone: </p>
                             <p> {phone}</p>
                         </div>
-                        <div className='flex items-center'>
+                        <div className='flex items-center mb-3'>
                             <img src="/public/assets/Icons/Frame-3.png" alt="" />
                             <p>Email: </p>
                             <p> {phone}</p>
                         </div>
-                        <div className='flex items-center'>
+                        <div className='flex items-center mb-3'>
                             <img src="/public/assets/Icons/Frame-4.png" alt="" />
                             <p>Address : </p>
                             <p> {address.city}, {address.street}, {address.zip}</p>
                         </div>
                     </div>
-                    <button className='mt-12 bg-gradient-to-r from-[#7E90FE] to-[#9873FF] p-3 rounded-lg text-white text-xl font-bold py-4 px-5'>Apply Now</button>
+                    <button className='mt-12 w-full bg-gradient-to-r from-[#7E90FE] to-[#9873FF] p-3 rounded-lg text-white text-xl font-bold py-4 px-5'>Apply Now</button>
                 </div>
 
             </div>
