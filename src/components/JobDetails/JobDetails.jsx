@@ -1,14 +1,15 @@
 import React from 'react';
-import { json, useLoaderData, useLocation } from 'react-router-dom';
-import { addToDb, getShoppingCart } from '../../utilities/fakedb';
+import { useLoaderData, useLocation } from 'react-router-dom';
+import { addToDb } from '../../utilities/fakedb';
 
 const JobDetails = () => {
     const jobs = useLoaderData()
+    
 
 
-    const location = useLocation();
-    // console.log(location.state)
-    const job = jobs.find(job => job._id === location.state.id);
+    const {state} = useLocation();
+    const{id} = state
+    const job = jobs.find(job => job._id === id);
     console.log(job)
     const { responsibilities, phone, _id, email, address, title, description, salary, education, experience
     } = job
@@ -17,14 +18,7 @@ const JobDetails = () => {
 
     const handleApply = (_id) =>{
          addToDb(_id);
-        
-
-        
-
-        
-
-
-    }
+        }
 
 
     
@@ -43,7 +37,7 @@ const JobDetails = () => {
                     </div>
                     <div className=''><span className='font-extrabold text-[#1A1919]'>Job Responsibility:</span>
                         {
-                            responsibilities.map(data => <span>{data}</span>)
+                            responsibilities.map(data => <span key={data.index}>{data}</span>)
                         }
 
                     </div>

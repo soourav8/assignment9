@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { addToDb, getShoppingCart } from '../../utilities/fakedb';
+import AppliedCard from '../AppliedCard/AppliedCard';
 
 const Applied = () => {
     const [items , setItems] = useState([]);
@@ -20,15 +21,17 @@ const Applied = () => {
         
        
         
-    },[items])
+    },[])
     
     
     
-    // const job = data.find(data => data._id === )
+    
     
     return (
         <div>
-           <p>{items.length}</p>
+           {
+             items.map(item => <AppliedCard key={item._id} item={item}></AppliedCard>)
+           }
         </div>
     );
 };
